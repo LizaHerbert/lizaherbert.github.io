@@ -1,7 +1,6 @@
 html
 
 body {
-    margin: 0px;
     background-color: black;
 }
 
@@ -9,6 +8,8 @@ body {
     background-color: black;
     text-align: left;
     margin-top: 20px;
+    font-family: Helvetica;
+    font-size: 16px;
 }
 
 .header-menu a:link, a:hover, a:active {
@@ -41,15 +42,17 @@ body {
 .main-container {
     margin: auto;
     text-align: center;
-    max-width: 650px;
+    max-width: 800px;
+}
+
+.main-container img {
+    width:100%;
 }
 
 .nameplate {
-    display: inline-block;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
     font-family: "Garamond";
     letter-spacing: 0.2em;
     padding: 20px;
@@ -61,25 +64,12 @@ body {
     -1px 1px 0 #000,
      1px 1px 0 #000;
     z-index: 10;
-    //*border: 2px solid whitesmoke; *//
 }
 
 #nameplate-role {
     font-size: 16px;
 }
- 
-.big-image {
-       max-width: 650px;
-}
 
-.big-image img {
-    width:100%;
-    max-width: 650px;
-    position: relative;
-    bottom: 275px;
-    z-index: -10;
-
-}
  
 .content-box {
     overflow: auto;
@@ -104,6 +94,7 @@ body {
 
 #headshot img {
     float: right;
+    width:155px;
 }
 
 .resume-box {
@@ -147,8 +138,10 @@ body {
 footer {
     background-color: black;
     margin: 0px;
-    color: whitesmoke;
+    color: #dbdbdb;
     text-align: center;
+    font-family: "Helvetica";
+    letter-spacing: 0.3em;
     
 }
 
@@ -162,27 +155,11 @@ hr {
 }
 
 
-@media screen and (min-width: 667px) {
+@media screen and (max-width: 680px) {
 
-.header-menu {
-    font-size: 20px;
-        
-    }
-    
 .main-container {
-    width: 90%;
+    width: 95%;
 }
-
-.nameplate {
-    font-size: 44px;
-    margin-top: 50px;
-    }
     
-.big-image img {
-    bottom: 220px;
-    }
-    
-.content-title{
-    margin-left: 0px;
     
 }
