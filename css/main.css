@@ -38,7 +38,6 @@ body {
 
 .main-container {
     margin: auto;
-    text-align: center;
     max-width: 700px;
 }
 
@@ -67,10 +66,7 @@ body {
     font-size: 16px;
 }
 
- 
 .content-box {
-    overflow: auto;
-    margin: 2px auto 2px auto;  
     font-size: 18px;
     color: whitesmoke;
     text-align: left;
@@ -81,9 +77,6 @@ body {
     background-color: #dadada;
     color: black;
     padding: 40px;
-    overflow: auto;
-    max-width: 750px;
-    margin: 2px auto 2px auto;  
     font-size: 18px;
     text-align: left;
     font-family: "Helvetica-light", sans-serif; 
@@ -105,10 +98,6 @@ body {
     font-family: "Helvetica-light", sans-serif; 
 }
 
-.placeholder-video img {
-    position: relative;
-    width: 100%;
-}
 
 .videoWrapper {
 	position: relative;
@@ -128,31 +117,54 @@ body {
     font-size: 16px;        
     font-family: "Helvetica-light", sans-serif;
     text-align: right;
-
 }
 
 footer {
-    background-color: black;
-    margin: 0px;
-    color: #dbdbdb;
+    margin-top: 20px;
     text-align: center;
+    background-color: black;
+    color: #dbdbdb;
     font-family: "Helvetica";
     letter-spacing: 0.2em;
-    
+}
+
+#footer-index {
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border-top: 1px solid #191919;
+    margin: 0 auto;
     padding: 0;
+    width: 95%;
+    margin-bottom: 30px;
 }
 
 
 @media screen and (max-width: 680px) {
 
-
+.header-menu {
+    margin-top: 10px;
+    }
     
+.nameplate {
+    font-size: 38px;
+    }
+    
+.content-title{
+    font-size: 32px;
+    }
+    
+.about-box {
+    padding: 20px;
+    font-size: 16px;
+    }
 }
