@@ -10,15 +10,21 @@ body {
     margin-top: 20px;
     font-family: Helvetica;
     font-size: 16px;
+    letter-spacing: 0.1em;
 }
 
-.header-menu a:link, a:hover, a:active {
-    color: white;
+.header-menu a:link {
+    color: whitesmoke;
     text-decoration: none;
 }
 
+.header-menu a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+}
+
 .header-menu a:visited {
-    color: #dbdbdb;
+    color: grey;
     text-decoration: none;
 }
 
@@ -30,19 +36,10 @@ body {
     display: inline-block;
 }
 
-.menu-item-site {
-    color: whitesmoke;
-    margin: 10px;
-    padding: 8px;
-    font-family: "Arial";
-    display: inline-block;
-    align-content: right;
-}
-
 .main-container {
     margin: auto;
     text-align: center;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .main-container img {
@@ -57,7 +54,7 @@ body {
     letter-spacing: 0.2em;
     padding: 20px;
     font-size: 48px;
-    color: whitesmoke;
+    color: white;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -104,7 +101,6 @@ body {
 .content-title{
     color: whitesmoke;
     font-size: 44px;
-    margin-left: -30px;
     text-align: left;
     font-family: "Helvetica-light", sans-serif; 
 }
@@ -141,7 +137,7 @@ footer {
     color: #dbdbdb;
     text-align: center;
     font-family: "Helvetica";
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     
 }
 
@@ -157,9 +153,6 @@ hr {
 
 @media screen and (max-width: 680px) {
 
-.main-container {
-    width: 95%;
-}
-    
+
     
 }
