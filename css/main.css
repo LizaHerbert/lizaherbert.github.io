@@ -110,6 +110,7 @@ body {
 .content-title{
     color: whitesmoke;
     font-size: 44px;
+    margin: 22px 2px;
     text-align: left;
     font-family: "Helvetica-light", sans-serif; 
 }
