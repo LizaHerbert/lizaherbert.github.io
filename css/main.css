@@ -96,6 +96,7 @@ body {
     font-size: 18px;
     text-align: left;
     font-family: "Helvetica-light", sans-serif; 
+    border-radius: 20px;
 }
 
 #headshot img {
