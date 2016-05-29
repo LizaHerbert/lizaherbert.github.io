@@ -106,6 +106,7 @@ body {
     overflow: auto;
     margin-bottom: 5px;
     height: 250px;
+    
     }
 
 .CV-subsection img{
@@ -177,6 +178,24 @@ hr {
     margin-bottom: 30px;
 }
 
+.inf {
+    width: 33%;
+    height: 900px;
+    min-height: 200px;
+    position: relative;
+    float: right;
+    
+}
+
+.inf-image {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-2015-hong-kong.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+     border-radius: 20px;
+}
+
 
 @media screen and (max-width: 667px) {
 
@@ -212,3 +231,4 @@ hr {
 }
 
 }
+
