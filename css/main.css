@@ -178,23 +178,42 @@ hr {
     margin-bottom: 30px;
 }
 
-.inf {
+.cv-image-holder {
     width: 33%;
-    height: 900px;
+    height: 600px;
+    min-height: 200px;
+    position: relative;
+    float: right;    
+}
+
+.cv-image-bg {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-2015-beijing.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.about-image-holder {
+    width: 33%;
+    height: 500px;
     min-height: 200px;
     position: relative;
     float: right;
     
 }
 
-.inf-image {
+.about-image-bg {
     height: 100%;
     position:relative;
-    background:   url("http://www.lizaherbert.com/img/liza-herbert-2015-beijing.jpg")no-repeat;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-2014-london.jpg")no-repeat;
     background-size: cover;
     background-position: center;
-     border-radius: 20px;
+    border-radius: 20px;
 }
+
+
 
 
 @media screen and (max-width: 667px) {
