@@ -41,10 +41,8 @@ body {
     max-width: 700px;
 }
 
-#headshot img {
-    max-width: 100%;
-    max-height: 100%;
-    
+#headshot {
+    float: right;
 }
 
 .imageHorizontal {
@@ -95,12 +93,12 @@ body {
 .about-box {
     background-color: #dadada;
     color: black;
-    padding: 20px;
     font-size: 18px;
     text-align: left;
     font-family: "Helvetica-light", sans-serif; 
     border-radius: 20px;
     margin: 18px 10px;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -220,16 +218,15 @@ hr {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
-    margin-left: 10px;
 }
 
 .about-image-holder-top {
-    width: 100%;
-    height: 200px;
+    width: 110%;
+    height: 240px;
     min-height: 200px;
-    position: relative;
-    float: right;
-    
+    position: relative; 
+    margin: 10px -20px -20px -20px;
+
 }
 
 .about-image-top {
@@ -238,9 +235,7 @@ hr {
     background:   url("http://www.lizaherbert.com/img/liza-herbert-headset-2016.jpg")no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    margin-left: 10px;
-    
+  
 }
 
 
@@ -280,7 +275,15 @@ hr {
     padding-left: 20px;
 }
 
+.about-image-holder-top {
+    height: 200px;
+    
 }
 
 
 
+
+.about {
+    padding: 20px;
+    
+}
