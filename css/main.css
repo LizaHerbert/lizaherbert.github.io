@@ -41,8 +41,10 @@ body {
     max-width: 700px;
 }
 
-#headshot {
-    float: right;
+#headshot img {
+    max-width: 100%;
+    max-height: 100%;
+    
 }
 
 .imageHorizontal {
@@ -218,6 +220,27 @@ hr {
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    margin-left: 10px;
+}
+
+.about-image-holder-top {
+    width: 100%;
+    height: 200px;
+    min-height: 200px;
+    position: relative;
+    float: right;
+    
+}
+
+.about-image-top {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-headset-2016.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    
 }
 
 
