@@ -56,10 +56,10 @@ body {
 
 .nameplate {
     position: absolute;
-    width: 360px;
+    width: 300px;
     margin: 0px 0 0 -180px;
     left: 50%;
-    top: 15%;
+    top: 1%;
     text-align: center;
     font-family: "Garamond";
     letter-spacing: 0.04em;
@@ -259,7 +259,7 @@ hr {
 .nameplate {
     font-size: 36px;
     width: 320;
-    top: 25%;
+    top: 1%;
     }
     
 .content-title{
