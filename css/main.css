@@ -55,11 +55,10 @@ body {
 }
 
 .nameplate {
-    position: absolute;
+    position: relative;
     width: 300px;
     margin: 0px 0 0 -180px;
     left: 50%;
-    top: 1%;
     text-align: center;
     font-family: "Garamond";
     letter-spacing: 0.04em;
@@ -181,7 +180,6 @@ hr {
     margin: 0 auto;
     padding: 0;
     width: 95%;
-    margin-bottom: 30px;
 }
 
 .cv-image-holder {
@@ -215,6 +213,42 @@ hr {
     height: 100%;
     position:relative;
     background:   url("http://www.lizaherbert.com/img/liza-herbert-2014-london.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.about-image-bg-1 {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-cv-sidebar-1.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.about-image-bg-2 {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-cv-sidebar-2.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.about-image-bg-3 {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-cv-sidebar-3.jpg")no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.about-image-bg-4 {
+    height: 100%;
+    position:relative;
+    background:   url("http://www.lizaherbert.com/img/liza-herbert-cv-sidebar-4.jpg")no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
